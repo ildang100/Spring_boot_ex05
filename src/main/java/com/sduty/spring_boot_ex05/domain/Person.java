@@ -9,30 +9,27 @@ import java.time.LocalDate;
 
 @Data
 @NoArgsConstructor
-@RequiredArgsConstructor
-@Component
+@AllArgsConstructor
 @Entity
+@Builder
 public class Person {
 
     @Id
     @GeneratedValue
     private Long id;
 
-    @NonNull
     private String name;
 
-    @NonNull
     private int age;
 
-    @NonNull
     private String bloodType;
 
     private String hobby;
 
     private String address;
 
-//    @Embedded
-    private LocalDate birthday;
+    @Embedded
+    private Birthday birthday;
 
     private String job;
 
