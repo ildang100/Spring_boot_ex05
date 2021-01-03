@@ -80,3 +80,27 @@ Itreaion(반복주기) 개발로 2-cycle 개발 진행
  - Pageable
  - Page<T>
 
+# 앞으로 해 볼 것
+- FrontEnt 개발
+ - Web
+  - VueJs, ReactJs
+
+- App
+ - Android App
+ - iOS App
+
+- DB 연동
+ - MySQL
+ - MongoDB
+
+- Spring(Boot)의 중급 활용
+ - 추가적인 설정
+ - Customizing 설정
+
+- JPA 중급 활용
+ - 다양한 Relation
+ - QueryDSL / Jooq
+
+- 로직의 확장
+ - 추가적인 스펙
+
